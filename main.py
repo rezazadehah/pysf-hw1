@@ -3,7 +3,7 @@ from colorama import Back, Style
 
 colorama.init(autoreset=True)
 
-#background = BLUE
+
 
 
 def sky():
@@ -36,13 +36,13 @@ def body():
     print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*40 + Back.LIGHTBLUE_EX+" "*30)
     print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*40 + Back.LIGHTBLUE_EX+" "*30)
     print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*40 + Back.LIGHTBLUE_EX+" "*30)
-    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
-    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
-    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
-    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
-    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
-    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
-    print(Back.GREEN + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.LIGHTYELLOW_EX +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.GREEN+" "*30)
+    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
+    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
+    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
+    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
+    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
+    print(Back.LIGHTBLUE_EX + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.LIGHTBLUE_EX+" "*30)
+    print(Back.GREEN + " "*30 + Back.LIGHTMAGENTA_EX +" "*6 +Back.WHITE +" "*10 + Back.LIGHTMAGENTA_EX +" "*24+ Back.GREEN+" "*30)
 
 def gnd():
     print(Back.GREEN + " "*32 +Back.BLACK +" "*18 + Back.GREEN+" "*50)
